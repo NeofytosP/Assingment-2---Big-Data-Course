@@ -3,4 +3,4 @@ Data model implementation on MongoDB Atlas
 I've created a Read_user
 
 ## Connection
-Connection String: " mongodb+srv://Read_user:Assignment@cluster0.rxdbvnd.mongodb.net/ "
+Connection String: "mongodb+srv://Read_user:Assignment@cluster0.rxdbvnd.mongodb.net/"
