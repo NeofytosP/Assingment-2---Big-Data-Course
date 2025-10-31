@@ -19,7 +19,21 @@ Connection String: "mongodb+srv://Read_user:Assignment@cluster0.rxdbvnd.mongodb.
    - find specific edits of a document
 
 ## Examples of queries
+Find specific User
 - db.Users.find({user_id:1})
-  Find specific User
+
+Find users with id between 1 and 10
 - db.Users.find( { user_id: {$gte:1,$lte:10}})
-  Find users with id between 1 and 10
+
+Find a specific document
+- db.Documents.find({doc_id:2})
+
+Find only the collaborators of a specific document
+- db.Documents.find({doc_id:1},{collaborators:1})
+
+Find only the edits of a specific document
+- db.Documents.find({doc_id:1},{document_edits:1})
+
+Find a specific edit of a document
+- db.Documents.find({doc_id:1,"document_edits.edit_id":"d12"},{"document_edits.$": 1})
+
