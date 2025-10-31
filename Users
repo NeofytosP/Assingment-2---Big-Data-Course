@@ -1,9 +1,0 @@
-{
-  "_id": {
-    "$oid": "6904c6c2fe47fd732137d07c"
-  },
-  "user_id": 1,
-  "fname": "Neofytos",
-  "lname": "Petrou",
-  "email": "petrouneofytos@gmail.com"
-}
