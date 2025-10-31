@@ -12,6 +12,14 @@ Connection String: "mongodb+srv://Read_user:Assignment@cluster0.rxdbvnd.mongodb.
 - The database have 20 users and 5 documents
 - Each User document has information about the user and each Document document has information about the document like title,id while also the collaborators on that document and the different edits applied.
 - The queries that can be performed is:
-- - find and get User information
-  -  find and get User Document information (contains collaborators/edits)
+   - find and get User information
+   - find and get User Document information 
+   - find collaborators worked on document
+   - find the edits on a document(along with what and who edited)
+   - find specific edits of a document
 
+## Examples of queries
+- db.Users.find({user_id:1})
+  Find specific User
+- db.Users.find( { user_id: {$gte:1,$lte:10}})
+  Find users with id between 1 and 10
