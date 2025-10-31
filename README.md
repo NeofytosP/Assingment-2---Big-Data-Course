@@ -8,4 +8,3 @@ Connection String: "mongodb+srv://Read_user:Assignment@cluster0.rxdbvnd.mongodb.
 ## Implementations
 I've created 2 collection of documents for Users and Documents.
 They are in JSON format.
- -The
