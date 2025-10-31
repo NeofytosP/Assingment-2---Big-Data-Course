@@ -11,6 +11,7 @@ Connection String: "mongodb+srv://Read_user:Assignment@cluster0.rxdbvnd.mongodb.
 - Uploaded 2 files, examples for Users and Documents documents used. 
 - The database have 20 users and 5 documents
 - Each User document has information about the user and each Document document has information about the document like title,id while also the collaborators on that document and the different edits applied.
-- The queries that can be performed is find and get User information, Document information (contains collaborators/edits)
--  - sjsd
-   - 
+- The queries that can be performed is:
+- - find and get User information
+  -  find and get User Document information (contains collaborators/edits)
+
