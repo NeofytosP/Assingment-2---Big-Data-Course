@@ -8,6 +8,6 @@ Connection String: "mongodb+srv://Read_user:Assignment@cluster0.rxdbvnd.mongodb.
 ## Implementations
 - I've created 2 collection of documents for Users and Documents.
 - They are in JSON format.
-- Uploaded 2 example of JSON files.
+- Uploaded 2 files, examples for Users and Documents documents used. 
 - The database have 20 users and 5 documents
 - Each User document has information about the user and each Document document has information about the document like title,id while also the collaborators on that document and the different edits applied.
