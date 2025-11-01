@@ -22,8 +22,8 @@ Connection String: "mongodb+srv://Read_user:Assignment@cluster0.rxdbvnd.mongodb.
 Find specific User
 - db.Users.find({user_id:1})
 
-Find users with id between 1 and 10
-- db.Users.find( { user_id: {$gte:1,$lte:10}})
+Find users with id between 1 and 5
+- db.Users.find( { user_id: {$gte:1,$lte:5}})
 
 Find a specific document
 - db.Documents.find({doc_id:2})
